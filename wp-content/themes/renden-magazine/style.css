@@ -1,0 +1,371 @@
+/*
+Theme Name: Renden Magazine
+Text Domain: renden-magazine
+Template: renden
+Version: 1.0.10
+Requires at least: 4.7
+Tested up to: 5.6.0
+Requires PHP: 5.6.0
+Description: Renden Magazine is the free version of the multi-purpose professional theme (Renden Pro) ideal for a business or blog website. The theme has a responsive layout, HD retina ready and comes with a powerful theme options panel with can be used to make awesome changes without touching any code. The theme also comes with a full width easy to use slider. Easily add a logo to your site and create a beautiful homepage using the built-in homepage layout.
+Tags: one-column, two-columns, three-columns, right-sidebar, left-sidebar, custom-header, custom-menu, full-width-template, theme-options, threaded-comments, featured-images, post-formats, sticky-post, translation-ready, flexible-header, custom-background, grid-layout, footer-widgets, blog, e-commerce, photography, rtl-language-support
+Author: Think Up Themes
+Author URI: https://www.thinkupthemes.com
+Theme URI: https://www.thinkupthemes.com/free/renden-free/
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+/* General */
+h1,h2,h3,h4,h5,h6 {
+}
+
+/* Services */
+.services-builder .iconmain h3 {
+}
+
+#site-header {
+	border-top: 4px solid #e0484c;
+}
+
+/* Pre Header */
+#pre-header {
+	background: none;
+}
+#pre-header-core {
+	border-bottom: 1px solid #e7e7e7;
+}
+#pre-header .header-links > ul > li:before {
+	content: "";
+}
+#pre-header .header-links .sub-menu {
+	border: 1px solid #e7e7e7;
+	background: #fff;
+}
+#pre-header .header-links .sub-menu li {
+	border-bottom: 1px solid #e7e7e7;
+}
+#pre-header .header-links .sub-menu li:last-child {
+	border-bottom: none;
+}
+#pre-header .header-links .sub-menu a {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#pre-header-social li,
+#pre-header-social li:last-child {
+	border: none;
+}
+#pre-header-social li a {
+	width: 30px;
+	height: 30px;
+}
+#pre-header-social li i {
+	font-size: 12px;
+}
+
+/* Header */
+#header .menu > li.menu-hover > a,
+#header .menu > li.current_page_item > a,
+#header .menu > li.current-menu-ancestor > a,
+#header .menu > li > a:hover {
+	-webkit-box-shadow: inset 0 -3px 0 0 #e0484c;
+	-moz-box-shadow: inset 0 -3px 0 0 #e0484c;
+	-ms-box-shadow: inset 0 -3px 0 0 #e0484c;
+	-o-box-shadow: inset 0 -3px 0 0 #e0484c;
+	box-shadow: inset 0 -3px 0 0 #e0484c;
+}
+#header .header-links .sub-menu a {
+	padding: 7px 20px !important;
+}
+#header .sub-menu li {
+	border-left: none;
+	border-right: none;
+	border-bottom: 1px solid #e7e7e7;
+	padding: 0 !important;
+}
+#header .sub-menu li:last-child {
+	border-bottom: none;
+}
+#header .header-links > ul > li a {
+	border-top: none !important;
+}
+
+#header .header-links .sub-menu {
+	-webkit-box-shadow: 0 2px 5px #e7e7e7;
+	-moz-box-shadow: 0 2px 5px #e7e7e7;
+	-ms-box-shadow: 0 2px 5px #e7e7e7;
+	-o-box-shadow: 0 2px 5px #e7e7e7;
+	box-shadow: 0 2px 5px #e7e7e7;
+}
+#header .header-links .sub-menu a:hover,
+#header .header-links .sub-menu .current-menu-item a {
+	color: #fff;
+	background: #e0484c;
+}
+#header .header-links .sub-menu .menu-parent > a:before {
+	-webkit-transition: left 0.3s ease;
+	-moz-transition: left 0.3s ease;
+	-ms-transition: left 0.3s ease;
+	-o-transition: left 0.3s ease;
+	transition: left 0.3s ease;
+}
+#header .header-links .menu-hover > .sub-menu {
+	margin-left: 0;
+}
+
+/* Slider */
+#slider a.rslides_nav {
+}
+#slider a.rslides_nav.prev:before,
+#slider a.rslides_nav.next:before {
+}
+#slider a.rslides_nav.prev:hover:before,
+#slider a.rslides_nav.next:hover:before {
+}
+
+/* Intro */
+#intro {
+	padding: 20px 10px;
+}
+
+/* Blog */
+.blog-style2 #content {
+	background: #FFF;
+}
+.blog-article .blog-thumb {
+	display: block;
+	vertical-align: top;
+}
+.blog-article .entry-content {
+	position: relative;
+}
+.blog-article .blog-title {
+	text-transform: none;
+}
+.blog-article .more-link {
+	text-transform: capitalize;
+}
+
+.blog-article .entry-meta > span {
+	text-transform: none;
+	margin-right: 14px;
+}
+.blog-article .entry-meta > span:before {
+	content: "";
+	margin: 0;
+}
+.blog-article .entry-meta i {
+	padding-right: 5px;
+}
+
+.blog-article .entry-meta .comment {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	width: 18px;
+	height: 18px;
+	line-height: 18px;
+	text-align: center;
+	margin: 0;
+}
+.blog-article .entry-meta .comment a {
+	display: block;
+	color: #fff;
+	font-size: 90%;
+	background: #222;
+}
+.blog-article .entry-meta .comment a:hover {
+	color: #fff;
+	background: #e0484c;
+}
+
+.blog-article .entry-meta .comment a:after {
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 4px 4px 0 0;
+    border-color: #222 #0000 #0000 #0000;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+.blog-article .entry-meta .comment a:hover:after {
+    border-color: #e0484c #0000 #0000 #0000;
+}
+.blog-article .entry-meta .comment .fa-comments,
+.blog-article .entry-meta .comment .comment-text {
+	display: none;
+}
+
+.blog-article.has-post-thumbnail .entry-meta .date {
+	position: absolute;
+	top: -21px;
+	left: 0px;
+	margin: 0;
+}
+.blog-article.has-post-thumbnail .entry-meta .date a {
+	display: block;
+	height: 17px;
+	line-height: 17px;
+	color: #fff;
+	font-size: 90%;
+	background: #222;
+	padding: 2px 6px;
+}
+.blog-article.has-post-thumbnail .entry-meta .date a:hover {
+	background: #e0484c;
+}
+
+/* Blog - Sticky Post */
+.blog-article.sticky .entry-content.comment-icon .fa-comments {
+}
+
+/* Post Navigation */
+#nav-above,
+#nav-below {
+	padding: 10px 0;
+}
+.nav-previous,
+.nav-next {
+	width: auto;
+}
+.nav-previous a,
+.nav-next a {
+	font-weight: 600;
+	height: auto;
+	width: auto;
+	line-height: inherit;
+	background: none;
+	border: none;
+}
+.nav-previous a:hover,
+.nav-next a:hover {
+	color: #e0484c;
+	background: none;
+}
+.nav-previous a .meta-nav,
+.nav-next a .meta-nav {
+    padding: 0 10px;
+}
+
+/* Posts & Pages */
+#comments-title h3 {
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: 600;
+	border-top: 4px solid #222;
+	border-bottom: 1px solid #e7e7e7;
+	padding: 15px 0;
+}
+#reply-title {
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: 600;
+	border-top: 4px solid #222;
+	border-bottom: 1px solid #e7e7e7;
+	padding: 15px 0;
+}
+.commentlist article {
+	background: none;
+	border-bottom: 1px solid #e7e7e7;
+	padding: 0 0 30px 0;
+}
+.commentlist .comment,
+.commentlist .pingback {
+}
+
+/* Author Bio */
+
+/* Pagination */
+.pag li a,
+.pag li span {
+	width: 33px;
+	height: 33px;
+	line-height: 33px;
+	border: 1px solid #e7e7e7;
+}
+.pag li.current span {
+	background: #e0484c;
+	border-color: #e0484c;
+}
+.pag li a:hover {
+	border-color: #232323;
+}
+
+/* Sidebars */
+#sidebar h3.widget-title {
+	display: block;
+	color: #fff;
+	border-bottom: 2px solid #222;
+}
+#sidebar h3.widget-title span {
+	display: inline-block;
+	background: #222;
+	padding: 4px 12px;
+}
+
+/* Left Sidebar Layout */
+.layout-sidebar-left #sidebar-core {
+}
+
+/* Right Sidebar Layout */
+.layout-sidebar-right #sidebar-core {
+}
+
+/* Widgets */
+.widget li {
+}
+.widget li a {
+}
+.widget li > a:before {
+}
+
+#sidebar .widget_tag_cloud a {
+}
+#sidebar .widget_tag_cloud a:hover { 
+}
+
+/* Footer */
+#footer {
+	background: #131313;
+	padding-top: 55px;
+}
+#footer-core h3 {
+	display: block;
+	font-weight: 700;
+	text-transform: uppercase;
+	border-bottom: 3px solid #212121;
+	padding-bottom: 10px;
+}
+#footer-core,
+#footer-core p {
+}
+#footer-core a,
+#footer-core .widget li > a:before {
+	color: #fff;
+}
+#footer-core a:hover,
+#footer-core .widget li > a:hover:before {
+	color: #e0484c;
+}
+
+#sub-footer {
+	color: #999;
+	background: #080808;
+}
+#sub-footer a {
+	color: #e0484c;
+}
+#sub-footer a:hover {
+	color: #e0484c;
+	text-decoration: underline;
+}
+
+/* Responsive */
